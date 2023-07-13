@@ -1,0 +1,25 @@
+// header
+.header-container{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 40px;
+
+}
+
+.logo_kasa{
+    width: 180px;
+}
+
+// liens 
+.link_style{
+    color: #FF6060;
+   text-decoration: none;
+   font-size: 24px;
+   padding: 0 0 0 60px;
+}
+
+
+.link_style.active {
+    text-decoration: underline;
+}

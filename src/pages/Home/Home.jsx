@@ -1,9 +1,15 @@
-import React from 'react'
-import Navbar from '../../components/navbar'
+import React from 'react';
+import Header from "../../components/Header/header";
+import Footer from '../../components/Footer/footer';
+
+
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      <Header />
+      <Footer/>
+      
     </div>
-  )
+  );
 }
+
