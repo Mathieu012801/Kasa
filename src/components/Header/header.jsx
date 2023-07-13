@@ -10,10 +10,10 @@ export default function Header() {
         <img className='logo_kasa' src={logo} alt="logo agence kasa" />
       </Link>
       <div>
-      <NavLink className='link_style'>
+      <NavLink to="/" className='link_style'>
         Accueil
       </NavLink>
-      <NavLink className='link_style'>
+      <NavLink to="/Apropos" className='link_style'>
         À Propos
       </NavLink>
       </div>

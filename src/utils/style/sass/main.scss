@@ -1,4 +1,8 @@
 @import '../../style/sass/reset.scss';
 @import '../../../components/Header/header.scss';
 @import '../../../components/Footer/footer.scss';
-@import '../../../components/Banner/banner.scss'
+@import '../../../components/Banner/banner.scss';
+@import '../../../pages/Home/home.scss';
+.container{
+    max-width:  1240px; 
+}

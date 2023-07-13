@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from "../../components/Header/header";
-import Footer from '../../components/Footer/footer';
-
+import Banner from '../../components/Banner/banner';
+import banner_home from '../../assets/banner.png';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Footer/>
+    <div className='home'>
+      
+      <Banner image={banner_home} text= "Chez vous, partout et ailleurs"/>
+      
       
     </div>
   );
