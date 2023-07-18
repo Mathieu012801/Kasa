@@ -13,7 +13,7 @@ export default function Header() {
       <NavLink to="/" className='link_style'>
         Accueil
       </NavLink>
-      <NavLink to="/Apropos" className='link_style'>
+      <NavLink to="/About" className='link_style'>
         À Propos
       </NavLink>
       </div>

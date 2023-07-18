@@ -1,14 +1,14 @@
 import React from 'react'
-import '../../components/Cards/cards.scss'
+import { Link } from 'react-router-dom'
 
-export default function cards() {
+export default function cards({id,cover,title}) {
   return (
-    <section className='cards'>
+    <Link to= {`/logement/${id}`} className='cards'>
         <figure className='cards__cont'>
-            <img className='cards__img' src="" alt="" />
-            <figcaption className='cards__title'></figcaption>
+            <img className='cards__img' src={cover} alt="" />
+            <figcaption className='cards__title'>{title}</figcaption>
         </figure>
-    </section>
+    </Link>
  
   )
 }
