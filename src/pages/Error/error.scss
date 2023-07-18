@@ -4,18 +4,23 @@
    justify-content: center;
    align-items: center;
    text-align: center;
-   height: 57vh;
    color: #FF6060;
+   width: 80%;
+   margin: auto;
+   padding-bottom: 30px;
 }
 .title_error{
     font-size: 288px;
     font-weight: 900;
     margin: 0;
     
+
+    
 }
 .text_error{
     font-size: 36px;
     margin: 0;
+   
 }
 
 .LinkError{
@@ -23,6 +28,3 @@
    font-size: 18px;
    margin-top: 100px;
 }
-.LinkError:hover {
-    filter: brightness(0.95);
- }

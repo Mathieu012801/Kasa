@@ -6,6 +6,8 @@
   text-align: center;
   height: 57vh;
   color: #FF6060;
+  width: 80%;
+  margin: auto;
 }
 
 .title_error {
