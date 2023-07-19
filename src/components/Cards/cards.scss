@@ -1,25 +1,32 @@
 .cards_home{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  background-color: #F6F6F6;
-  border-radius: 25px;
-
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+max-width: 1240px;
+margin: auto ;
+background-color: #F6F6F6;
+border-radius: 25px;
 }
 
+.cards{
+  width: 340px;
+  margin-bottom: 35px;
+}
 .cards__cont{
   cursor: pointer;
   width: 340px;
   height: 340px;
-  // margin: 30px;
   position: relative;
   gap: 50px;
-
+  width: 100%;
+  margin: 0;
 }
 .cards__img{
   object-fit: cover;
   width: 340px;
   height: 340px;
   border-radius: 15px;
+  width: 100%;
 
 
 }
