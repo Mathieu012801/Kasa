@@ -1,0 +1,35 @@
+.cards_home{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: #F6F6F6;
+  border-radius: 25px;
+
+}
+
+.cards__cont{
+  cursor: pointer;
+  width: 340px;
+  height: 340px;
+  // margin: 30px;
+  position: relative;
+  gap: 50px;
+
+}
+.cards__img{
+  object-fit: cover;
+  width: 340px;
+  height: 340px;
+  border-radius: 15px;
+
+
+}
+.cards__title{
+  color: white;
+   font-size: 18px;
+   position: absolute;
+   width: 240px;
+  bottom: 15px;
+   left: 20px;
+   margin: 0;
+ 
+}

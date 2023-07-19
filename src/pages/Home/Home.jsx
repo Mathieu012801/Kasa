@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../../components/Banner/banner';
 import banner_home from '../../assets/banner.png';
-import Cards from '../../components/Cards /cards';
+import Cards from '../../components/Cards/cards';
 import data from '../../data/logements.json';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
      Key = {card.id}
       id = {card.id}
        cover= {card.cover}
-       Title= {card.title} />
+       title= {card.title} />
       ))}
       </div>
     </div>
