@@ -1,10 +1,10 @@
 import React from 'react'
+import Aboutbanner from '../../assets/aboutbanner.png'
 import Banner from '../../components/Banner/banner'
-import '../../assets/aboutbanner.png'
-
 export default function About() {
   return (
-    <Banner/>
- 
+    <div>
+      <Banner image={Aboutbanner} namealt="2emebanner" />
+    </div>
   )
 }
