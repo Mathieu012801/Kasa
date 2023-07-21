@@ -1,9 +1,16 @@
-import React from 'react'
-import'../../components/Collapse/collapse.scss';
+import React, { useState } from 'react';
 
+export default function Collapse({ title, content }) {
+  const [collapse, setCollapse] = useState(true);
 
-export default function collapse() {
+  const toggleCollapse = () => {
+    setCollapse(!collapse);
+  };
+
   return (
-    <div>collapse</div>
-  )
+    <div onClick={toggleCollapse}>
+      <h3>{title}</h3>
+      {collapse ? null : <p>{content}</p>}
+    </div>
+  );
 }
