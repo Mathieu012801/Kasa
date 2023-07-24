@@ -9,7 +9,7 @@ export default function Collapse({ title, content }) {
   };
 
   return (
-    <div onClick={toggleCollapse}>
+    <div className='collapse' onClick={toggleCollapse}>
       <h3>{title}</h3>
       <img src={dropUP} alt="Drop Up" />
       {collapse ? null : <p>{content}</p>}

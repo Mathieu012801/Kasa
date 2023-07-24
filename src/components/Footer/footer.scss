@@ -15,4 +15,16 @@
  }
 
 //Responsiv mobile
+@media (max-width:767px){
+
+   .FooterText{
+      font-size: 12px;
+      flex-direction: column;
+      width: 133.59px;
+      height: 46px;
+      text-align: center;
+
+   }
+
+}
 
