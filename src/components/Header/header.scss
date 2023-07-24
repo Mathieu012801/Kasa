@@ -26,5 +26,26 @@
     text-decoration: underline;
 }
 
+// Reponsiv mobile
+
+@media (max-width:767px){
+
+
+
+    .header-container{
+        display: flex;
+       justify-content: space-between;
+       padding: 0px;
+    }
+    
+    .logo_kasa{
+        width: 140px;
+    }
+    
+    // liens 
+    .link_style{
+       font-size: 17px;
+    }
+}
 
 
