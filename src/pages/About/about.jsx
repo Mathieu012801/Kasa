@@ -1,7 +1,8 @@
 import React from 'react';
 import Aboutbanner from '../../assets/aboutbanner.png';
 import Banner from '../../components/Banner/banner';
-import Collapse from '../../components/Collapse/collapse'; // Import the Collapse component
+import Collapse from '../../components/Collapse/collapse';
+import '.././About/about.scss';
 
 export default function About() {
   return (

@@ -4,22 +4,21 @@ import banner_home from '../../assets/banner.png';
 import Cards from '../../components/Cards/cards';
 import data from '../../data/logements.json';
 
+
 export default function Home() {
   return (
     <div className='home'>
-
-      
-      <Banner image={banner_home} text= "Chez vous, partout et ailleurs"/>
+      <Banner image={banner_home} text="Chez vous, partout et ailleurs" />
       <div className='cards_home'>
-      {data.map((card) => (
-      <Cards
-     Key = {card.id}
-      id = {card.id}
-       cover= {card.cover}
-       title= {card.title} />
-      ))}
+        {data.map((card) => (
+          <Cards
+            key={card.id} 
+            id={card.id}
+            cover={card.cover}
+            title={card.title}
+          />
+        ))}
       </div>
     </div>
   );
 }
-
