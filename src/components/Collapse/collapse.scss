@@ -1,3 +1,25 @@
-.collapse{
-    text-align: center;
-}
+.collapse {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .collapse__title__img {
+    display: flex;
+    padding: 3px 10px;
+    justify-content: space-between;
+    background: #FF6060;
+    width: 100%;
+    align-items: center;
+    color: white;
+  }
+  
+  .collapse__title__img  .drop__up {
+    
+        transform: translateY(-50%) rotate(180deg);
+        transition: transform 1s ease;
+      }
+  
+  
+  
