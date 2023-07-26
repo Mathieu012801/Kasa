@@ -3,7 +3,8 @@
     margin: auto;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: #F6F6F6;
+    margin: auto;
+    
   }
   
   .collapse__title__img {
@@ -14,11 +15,40 @@
     width: 100%;
     align-items: center;
     color: white;
-  }
+    border-radius: 5px;
+}
   
-  .collapse__title__img  .drop__up {
+  
+    .drop__up {
     
-        transform: translateY(-50%) rotate(180deg);
+       
         transition: transform 1s ease;
+      }
+      .content{
+        color: #FF6060;
+        visibility: hidden;
+        background-color: #F6F6F6;
+        height: 0;
+        opacity: 0;
+        transition: all .2s ease-in-out;
+        border-radius: 5px;
+        
+
+      }
+     
+    
+      .rotate{
+        transform:  rotate(-180deg);
+
+      }
+      .return{
+        transform-origin: 50% 0 ;
+        transform:scaleY(1);
+        visibility: visible;
+        height: auto;
+        overflow: visible;
+        opacity: 1;
+        transition: all .5s ease-in-out;
+
       }
   

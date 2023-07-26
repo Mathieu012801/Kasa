@@ -1,12 +1,12 @@
 .cards_home{
   display: flex;
-justify-content: space-evenly;
+justify-content: center;
 flex-wrap: wrap;
 max-width: 1240px;
 margin: auto ;
 background-color: #F6F6F6;
 border-radius: 25px;
-gap: 25px;
+gap: 50px;
 padding-top: 20px;
 }
 
@@ -45,6 +45,10 @@ padding-top: 20px;
 //Responsiv Mobile 
 
 @media (max-width:767px) {
+  .cards_home{
+    gap: 20px;
+    padding-bottom: 27px;
+  }
   .cards{
     width: 100%;
   }

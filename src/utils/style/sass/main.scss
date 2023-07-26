@@ -1,4 +1,4 @@
-@import '../../style/sass/reset.scss';
+
 @import '../../../components/Header/header.scss';
 @import '../../../components/Footer/footer.scss';
 @import '../../../components/Banner/banner.scss';
@@ -7,6 +7,10 @@
 @import '../../../components/Collapse/collapse.scss';
 @import '../sass/typo.scss';
 
+
+body{
+    font-family: "Montserrat";
+}
 
 .container{
  max-width:  1240px; 

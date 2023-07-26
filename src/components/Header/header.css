@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 45px 100px;
-  max-width: 1240px;
+  padding: 0 100px;
+  max-width: 1440px;
+  font-family: "Monserrat", sans-serif;
 }
 
 .logo_kasa {
@@ -20,6 +21,21 @@
 
 .link_style.active {
   text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .logo_kasa {
+    width: 140px;
+  }
+  .link_style {
+    font-size: 17px;
+    padding: 0 0 0 20px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

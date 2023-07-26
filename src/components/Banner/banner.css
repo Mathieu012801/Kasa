@@ -3,13 +3,17 @@
   max-width: 1240px;
   text-align: center;
   margin: auto;
+  padding-bottom: 25px;
+  position: relative;
 }
 .banner_text {
   color: white;
   font-size: 48px;
   font-weight: 500px;
-  position: relative;
-  top: 145px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 .banner_img {
@@ -17,6 +21,16 @@
   height: 223px;
   border-radius: 25px;
   object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    height: 111px;
+    margin-bottom: 80px;
+  }
+  .banner_text {
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=banner.css.map */
