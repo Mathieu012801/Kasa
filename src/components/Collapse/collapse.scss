@@ -51,4 +51,10 @@
         transition: all .5s ease-in-out;
 
       }
-  
+      // responsiv
+      @media (max-width: 767px) {
+         .return {
+          text-align: center;
+        }
+      }
+      
