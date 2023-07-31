@@ -33,6 +33,7 @@
         transition: all .2s ease-in-out;
         border-radius: 5px;
         
+        
 
       }
      
@@ -51,7 +52,7 @@
         transition: all .5s ease-in-out;
 
       }
-      // responsiv
+      // responsiv Mobil
       @media (max-width: 767px) {
          .return {
           text-align: center;

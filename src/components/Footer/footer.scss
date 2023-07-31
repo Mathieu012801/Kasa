@@ -16,7 +16,9 @@
 
 //Responsiv mobile
 @media (max-width:767px){
-  
+   .footer_container{
+      margin: -8px;
+   }
 
    .FooterText{
       font-size: 12px;

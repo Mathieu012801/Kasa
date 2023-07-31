@@ -7,7 +7,7 @@ import data from '../../data/logements.json';
 
 export default function Home() {
   return (
-    <div className='home'>
+    <main className='home'>
       <Banner image={banner_home} text="Chez vous, partout et ailleurs" />
       <div className='cards_home'>
         {data.map((card) => (
@@ -19,6 +19,6 @@ export default function Home() {
           />
         ))}
       </div>
-    </div>
+    </main>
   );
 }
