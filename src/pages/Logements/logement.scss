@@ -1,0 +1,14 @@
+.logement {
+    padding: 0px 100px;
+
+    &__collapse__container {
+        display: flex;
+        gap: 25px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    & .collapse {
+        width: 50%;
+    }
+}

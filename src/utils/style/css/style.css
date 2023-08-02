@@ -52,6 +52,9 @@
 }
 
 @media (max-width: 767px) {
+  .footer_container {
+    margin: -8px;
+  }
   .FooterText {
     font-size: 12px;
     flex-direction: column;
@@ -88,7 +91,7 @@
 @media (max-width: 767px) {
   .banner {
     height: 111px;
-    margin-bottom: 80px;
+    margin-bottom: 110px;
   }
   .banner_text {
     font-size: 24px;
@@ -187,8 +190,8 @@
   background-color: #F6F6F6;
   height: 0;
   opacity: 0;
-  transform: scaleY(0);
   transition: all 0.2s ease-in-out;
+  border-radius: 5px;
 }
 
 .rotate {
@@ -202,11 +205,66 @@
   height: auto;
   overflow: visible;
   opacity: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .return {
+    text-align: center;
+  }
+}
+.caroussel_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.caroussel__img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  height: 415px;
+}
+
+.caroussel__arrowright {
+  cursor: pointer;
+  position: absolute;
+  left: 2%;
+  top: 46%;
+  border: none;
+}
+
+.caroussel__arrowleft {
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+  top: 46%;
+  border: none;
+}
+
+.caroussel__compt {
+  position: absolute;
+  bottom: 0%;
+  color: white;
+  font-weight: 700;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.logement {
+  padding: 0px 100px;
+}
+.logement__collapse__container {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+}
+.logement .collapse {
+  width: 50%;
 }
 
 body {

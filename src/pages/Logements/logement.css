@@ -1,3 +1,14 @@
-
+.logement {
+  padding: 0px 100px;
+}
+.logement__collapse__container {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+}
+.logement .collapse {
+  width: 50%;
+}
 
 /*# sourceMappingURL=logement.css.map */
