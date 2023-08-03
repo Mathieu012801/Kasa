@@ -10,5 +10,29 @@
 .logement .collapse {
   width: 50%;
 }
+.logement .renseignement__container {
+  color: #ff6060;
+  margin: 60px 0 30px;
+}
+.logement .renseignement__container,
+.logement .renseignement__container .renseignement__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.logement .renseignement__container .renseignement__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+.logement .renseignement__container .renseignement__p {
+  font-size: 16px;
+  margin: 0;
+}
+.logement .tags__container {
+  margin: 25px 0 0;
+  padding: 0;
+  border-radius: 5px;
+}
 
 /*# sourceMappingURL=logement.css.map */

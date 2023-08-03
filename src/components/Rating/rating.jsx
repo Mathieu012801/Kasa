@@ -11,7 +11,9 @@ export default function Rating({ rating }) {
   return (
     <div className="rating">
       {fill.map((constante,index)=>(
-        <img key={`${constante}-${index}`} src={constante} alt="starActive" />
+        <img key={`${constante}-${index}`} src={constante} className="stars" alt="starActive" />
+
+    
       ))}
      
     </div>

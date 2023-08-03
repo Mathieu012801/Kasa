@@ -250,8 +250,20 @@
   font-weight: 700;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 25px;
+  font-size: 14px;
+  line-height: 19.96px;
+  color: white;
+  border-radius: 12px;
+  background-color: #FF6060;
+  padding: 3px 16px;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .logement {
@@ -265,6 +277,30 @@ body {
 }
 .logement .collapse {
   width: 50%;
+}
+.logement .renseignement__container {
+  color: #ff6060;
+  margin: 60px 0 30px;
+}
+.logement .renseignement__container,
+.logement .renseignement__container .renseignement__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.logement .renseignement__container .renseignement__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+.logement .renseignement__container .renseignement__p {
+  font-size: 16px;
+  margin: 0;
+}
+.logement .tags__container {
+  margin: 25px 0 0;
+  padding: 0;
+  border-radius: 5px;
 }
 
 body {
