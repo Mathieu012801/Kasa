@@ -21,6 +21,7 @@
   height: 223px;
   border-radius: 25px;
   object-fit: cover;
+  filter: brightness(0.8);
 }
 
 @media (max-width: 767px) {
@@ -30,6 +31,11 @@
   }
   .banner_text {
     font-size: 24px;
+    top: 75%;
+    left: 108px;
+    text-align: left;
+    width: 193px;
+    text-align: start;
   }
 }
 

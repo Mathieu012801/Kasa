@@ -1,6 +1,7 @@
 import React from 'react';
-import starActive from '../../assets/star_active.png'; // Importer l'image pour l'étoile active
-import starInactive from '../../assets/star_inactive.png'; // Importer l'image pour l'étoile inactive
+import starActive from '../../assets/star_active.png';
+import starInactive from '../../assets/star_inactive.png';
+import '../../components/Rating/rating.scss';
 
 export default function Rating({ rating }) {
   const stars = [starInactive, starInactive,starInactive,starInactive,starInactive];
@@ -11,7 +12,7 @@ export default function Rating({ rating }) {
   return (
     <div className="rating">
       {fill.map((constante,index)=>(
-        <img key={`${constante}-${index}`} src={constante} className="stars" alt="starActive" />
+        <img key={`${constante}-${index}`} src={constante}  alt="starActive" className='stars'/>
 
     
       ))}

@@ -35,4 +35,16 @@
   font-weight: 700;
 }
 
+@media (max-width: 767px) {
+  .caroussel__img {
+    height: 255px;
+  }
+  .caroussel__arrowright {
+    width: 7%;
+  }
+  .caroussel__arrowleft {
+    width: 7%;
+  }
+}
+
 /*# sourceMappingURL=carrousel.css.map */

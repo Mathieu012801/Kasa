@@ -86,6 +86,7 @@
   height: 223px;
   border-radius: 25px;
   object-fit: cover;
+  filter: brightness(0.8);
 }
 
 @media (max-width: 767px) {
@@ -95,6 +96,11 @@
   }
   .banner_text {
     font-size: 24px;
+    top: 75%;
+    left: 108px;
+    text-align: left;
+    width: 193px;
+    text-align: start;
   }
 }
 .home {
@@ -250,6 +256,17 @@
   font-weight: 700;
 }
 
+@media (max-width: 767px) {
+  .caroussel__img {
+    height: 255px;
+  }
+  .caroussel__arrowright {
+    width: 7%;
+  }
+  .caroussel__arrowleft {
+    width: 7%;
+  }
+}
 .tags {
   display: flex;
   justify-content: center;
@@ -266,6 +283,24 @@
   margin-right: 10px;
 }
 
+.host__container {
+  align-items: center;
+  display: flex;
+}
+
+.host__picture {
+  border-radius: 50%;
+  height: 90px;
+  margin: 0 0 0 30px;
+  width: 90px;
+}
+
+.host__name {
+  font-size: 18px;
+  margin: 0;
+  width: 60px;
+}
+
 .logement {
   padding: 0px 100px;
 }
@@ -279,13 +314,14 @@
   width: 50%;
 }
 .logement .renseignement__container {
+  display: flex;
   color: #ff6060;
   margin: 60px 0 30px;
+  flex-direction: row;
 }
 .logement .renseignement__container,
 .logement .renseignement__container .renseignement__info {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
 }
 .logement .renseignement__container .renseignement__title {
@@ -297,12 +333,34 @@
   font-size: 16px;
   margin: 0;
 }
-.logement .tags__container {
-  margin: 25px 0 0;
-  padding: 0;
-  border-radius: 5px;
+.logement .renseignement__container .tags__container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 11px;
+  justify-content: flex-start;
+}
+.logement .renseignement__container .renseignement__left {
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+}
+.logement .renseignement__container .rating__host {
+  justify-content: end;
 }
 
+@media (max-width: 767px) {
+  .renseignement__info {
+    width: 100%;
+  }
+  .renseignement__title {
+    font-size: 25px;
+  }
+  .renseignement__p {
+    font-size: 13px;
+    color: red;
+  }
+}
 body {
   font-family: "Montserrat";
 }
