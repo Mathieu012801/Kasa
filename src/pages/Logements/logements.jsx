@@ -46,8 +46,8 @@ export default function Logements() {
               </div>
             </section>
             <div className='logement__collapse__container'>
-              <Collapse title='Description' content={location.description} className="collapse__2" />
-              <Collapse  title='Équipements' content={location.equipments} className="collapse__2"  />
+              <Collapse title='Description' content={location.description} />
+              <Collapse  title='Équipements' content={location.equipments.join('\n')} />
             </div>
           </div>
         ))}

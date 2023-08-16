@@ -6,7 +6,7 @@ import '../../components/Rating/rating.scss';
 export default function Rating({ rating }) {
   const stars = [starInactive, starInactive,starInactive,starInactive,starInactive];
   const int = parseInt(rating);
-  const endIdx =  (int -1) ;
+   const endIdx =  (int -1) ;
   const fill = stars.fill(starActive,0,endIdx);
 
   return (

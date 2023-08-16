@@ -16,7 +16,7 @@ export default function Collapse({ title, content }) {
       <img src={dropUP} alt="Drop Up" className={`drop__up ${collapse ? "rotate" : "" }`} />
       </div>
       <div className={`content ${collapse ? "return" : "" }`}>
-      {  <p>{content}</p>}
+      {  <p className='collapse__text'>{content}</p>}
       </div>
     </div>
   );
