@@ -14,4 +14,10 @@
   margin-right: 10px;
 }
 
+@media (max-width: 767px) {
+  .tags {
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=tags.css.map */

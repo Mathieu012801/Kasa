@@ -6,7 +6,9 @@ import Collapse from '../../components/Collapse/collapse';
 import Rating from '../../components/Rating/rating';
 import Tags from '../../components/Tags/tags';
 import Host from '../../components/Host/host';
+import Liste from '../../components/Liste/Liste';
 import data from '../../data/logements.json';
+
 
 export default function Logements() {
   const { idLogements } = useParams();
@@ -47,7 +49,7 @@ export default function Logements() {
             </section>
             <div className='logement__collapse__container'>
               <Collapse title='Description' content={location.description} />
-              <Collapse  title='Équipements' content={location.equipments.join('\n')} />
+              <Collapse  title='Équipements' content={<Liste liste={location.equipments}/>} />
             </div>
           </div>
         ))}

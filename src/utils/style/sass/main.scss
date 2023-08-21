@@ -10,13 +10,13 @@
 @import '../../../components/Tags/tags.scss';
 @import '../../../components/Host/host.scss';
 @import'../../../pages/Logements/logement.scss';
+@import '../../../components/Liste/liste.scss';
 
 
 
-body{
-    font-family: "Montserrat";
-}
+
+
 
 .container{
- max-width:  1240px; 
+ font-family: 'Montserrat';
 }

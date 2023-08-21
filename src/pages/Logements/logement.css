@@ -1,32 +1,32 @@
 .logement {
   padding: 0px 100px;
 }
+
 .logement__collapse__container {
   display: flex;
-  gap: 25px;
-  width: 100%;
-  justify-content: center;
 }
-.logement .collapse {
-  width: 50%;
-}
+
 .logement .renseignement__container {
   display: flex;
   color: #ff6060;
   margin: 60px 0 30px;
   flex-direction: row;
+  justify-content: space-between;
 }
-.logement .renseignement__container,
-.logement .renseignement__container .renseignement__info {
+.logement .renseignement__container .renseignement__left {
+  width: 50%;
+  flex-direction: column;
+}
+.logement .renseignement__container .renseignement__left .renseignement__info {
   display: flex;
   flex-direction: column;
 }
-.logement .renseignement__container .renseignement__title {
+.logement .renseignement__container .renseignement__left .renseignement__info .renseignement__title {
   margin: 0;
   font-size: 36px;
   font-weight: 500;
 }
-.logement .renseignement__container .renseignement__p {
+.logement .renseignement__container .renseignement__left .renseignement__info .renseignement__p {
   font-size: 16px;
   margin: 0;
 }
@@ -37,25 +37,38 @@
   margin-top: 11px;
   justify-content: flex-start;
 }
-.logement .renseignement__container .renseignement__left {
-  width: 50%;
-  flex-direction: column;
-  display: flex;
-}
 .logement .renseignement__container .rating__host {
-  justify-content: end;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
 }
 
 @media (max-width: 767px) {
-  .renseignement__info {
+  .logement {
+    padding: 0px 5%;
+  }
+  .logement .renseignement__container .renseignement__left .renseignement__info .renseignement__title {
+    font-size: 18px;
+  }
+  .logement .renseignement__container .renseignement__left {
     width: 100%;
   }
-  .renseignement__title {
-    font-size: 25px;
+  .tags__container {
+    flex-wrap: wrap;
   }
-  .renseignement__p {
-    font-size: 13px;
-    color: red;
+  .logement .renseignement__container {
+    flex-direction: column;
+    margin: 0;
+  }
+  .logement__collapse__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logement .renseignement__container .rating__host {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    flex-direction: row;
   }
 }
 

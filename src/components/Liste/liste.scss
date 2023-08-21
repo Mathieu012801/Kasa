@@ -1,0 +1,14 @@
+.liste{
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.67px;
+    
+}
+
+@media (max-width: 768px) {
+    .liste{
+        font-size: 12px;
+        line-height: 17.11px;
+    }
+}

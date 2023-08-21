@@ -1,3 +1,22 @@
+.stars {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
 
+.rating {
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .stars {
+    width: 20px;
+    height: 20px;
+  }
+  .rating {
+    align-items: center;
+    display: flex;
+  }
+}
 
 /*# sourceMappingURL=rating.css.map */

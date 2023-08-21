@@ -16,5 +16,19 @@
 }
 // responsiv mobil
  
+@media (max-width: 768px){
+   
+   .host__name{
+        
+            font-size: 12px;
+            line-height: 17.11px;
+        }
+
+        .host__picture{
+            width: 32px;
+            height: 32px;
+            margin-left: -15px;
+        }
+    }
 
     

@@ -45,6 +45,9 @@
   .caroussel__arrowleft {
     width: 7%;
   }
+  .caroussel__compt {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=carrousel.css.map */
