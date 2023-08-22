@@ -45,7 +45,7 @@
 
 @media (max-width: 767px) {
   .logement {
-    padding: 0px 5%;
+    padding: 0px;
   }
   .logement .renseignement__container .renseignement__left .renseignement__info .renseignement__title {
     font-size: 18px;
