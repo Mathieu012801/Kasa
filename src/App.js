@@ -13,7 +13,7 @@ export default function App() {
     <div className='container'>
       <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/About" element={<About />} />
           <Route path="/logements/:idLogements" element={<Logements />} />
           <Route path="*" element={<Error />} />
